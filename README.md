@@ -1,4 +1,5 @@
-This project allows Chinese people to access the official website of Sugarchain without using VPN software
+This project allows Chinese people to access the official website of Sugarchain without using VPN software,And this project can be placed on the server of any country without any restrictions
+:)
 
 Sugarchain
 ==========
