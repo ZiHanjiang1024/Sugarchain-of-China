@@ -1,0 +1,398 @@
+<!-- I used the. md to. html tool. here=https://lwebapp.com/en/markdown-to-htm -->
+<!-- So, it looks messy.:(  -->
+
+<h1 id="sugarchain">Sugarchain</h1>
+<p>one-CPU-one-vote, the world’s fastest PoW blockchain<br><a href="https://sugarchain.org">https://sugarchain.org</a></p>
+<blockquote>
+<p><strong>Abstract.</strong> Sugarchain is the world&#39;s fastest PoW blockchain, that has the first Native SegWit (Bech32) built-in by default. Unlike Bitcoin, Sugarchain has no rounding errors when the block reward is halved. It launched fairly and follows Nakamoto&#39;s one-CPU-one-vote.</p>
+</blockquote>
+<h2 id="introduction">Introduction</h2>
+<p>Sugarchain is a decentralized, peer-to-peer (P2P) digital currency and payment network supported by an open-source blockchain protocol, launched by Zenny Kim and Volodymyr Biloshytskyi on August 24, 2019 <sup><a href="#bitcointalk">[1]</a></sup>. Through Sugarchain, users can make payments to anyone in the world at the highest speeds <em><strong>in 5 seconds</strong></em>, and the lowest costs compared to other digital assets. For example, the transaction speed of Sugarchain is 120 times faster than Bitcoin, 30 times faster than Litecoin and 12 times faster than Dogecoin.</p>
+<p>The Sugarchain Project emerged as an alternative solution to Bitcoin in light of early concerns over Bitcoin’s wait times in confirming block transactions and rounding errors in block reward halving. By introducing minor technical modifications to the original Bitcoin source code, Sugarchain allowed for much faster transaction speeds, even lower processing fees and has <em><strong>the most accurate block reward halving and total supply</strong></em> than any other digital asset, including Bitcoin. Sugarchain also launched following the <em><strong>one-CPU-one-vote</strong></em> idea proposed by Satoshi Nakamoto himself, thus making YespowerSugar GPU and ASIC resistant. It has also launched as being the first blockchain to have <em><strong>Native SegWit (Bech32)</strong></em> enabled by default.</p>
+<p>As one of the successful derivatives of Bitcoin, Sugarchain is establishing its position as <em><strong>the world&#39;s fastest PoW blockchain</strong></em>, complementing and reinforcing Bitcoin in purpose, function, and utility, and challenging our traditional notions of money. The Sugarchain Project has <em><strong>never been funded through an ICO or premine</strong></em>, making it a fair launch. Sugarchain is an entirely community and voluntarily driven project, with no external company or funding supporting it apart from community funding.</p>
+<p><small>** <a name="bitcointalk">[1]</a>: <a href="https://bitcointalk.org/index.php?topic=5177722.0">Bitcointalk: [ANN] Sugarchain [CPU] Launching 2019/08/24 15:00 UTC</a>
+</small></p>
+<h2 id="specifications">Specifications</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Block time:</td>
+<td><code>5</code> Seconds</td>
+</tr>
+<tr>
+<td>Block reward:</td>
+<td><code>42.94967296</code> SUGAR</td>
+</tr>
+<tr>
+<td>Halving interval:</td>
+<td><code>12,500,000</code> Blocks (approx. 2 years)</td>
+</tr>
+<tr>
+<td>Total supply:</td>
+<td><code>1,073,741,824</code> SUGAR</td>
+</tr>
+<tr>
+<td>PoW algorithm:</td>
+<td>YespowerSugar (based on Yespower 1.0.1)</td>
+</tr>
+<tr>
+<td>Difficulty:</td>
+<td>SugarShield-N510 (based on Zcash&#39;s modification of Digishield)</td>
+</tr>
+<tr>
+<td>Port:</td>
+<td>34230 / RPC 34229</td>
+</tr>
+<tr>
+<td>Premine:</td>
+<td>None: NO ICO, NO Presale, NO Founder&#39;s rewards</td>
+</tr>
+</tbody></table>
+<h2 id="the-worlds-fastest-pow-blockchain">The world&#39;s fastest PoW blockchain</h2>
+<ul>
+<li>5 seconds transaction speed <sup><a href="#SUGAR_blocktime">[2]</a></sup> :<ul>
+<li>120x faster than Bitcoin</li>
+<li>30x faster than Litecoin</li>
+<li>12x faster than Dogecoin</li>
+</ul>
+</li>
+<li>Transaction speed comparison
+<sup><a href="#DGB_blocktime">[3]</a></sup>
+<sup><a href="#XVG_blocktime">[4]</a></sup>
+<sup><a href="#DOGE_blocktime">[5]</a></sup>
+<sup><a href="#LTC_blocktime">[6]</a></sup>
+<sup><a href="#BTC_blocktime">[7]</a></sup><br>
+<img src="image/txspeed.png" width="95%">
+<br></li>
+<li>Don&#39;t worry about orphan blocks:<ul>
+<li>According to the testnet results, the average orphan rate is under 3% and no problems occur.</li>
+</ul>
+</li>
+</ul>
+<p><small>** <a name="SUGAR_blocktime">[2]</a>: <a href="https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L187">Github: SUGAR speed</a>
+** <a name="DGB_blocktime">[3]</a>: <a href="https://github.com/digibyte/digibyte/blob/82414be2e78bd136daeb91f55c72768a9b700957/src/chainparams.cpp#L88">DGB speed</a>
+** <a name="XVG_blocktime">[4]</a>: <a href="https://github.com/vergecurrency/verge/blob/4ae658a47ff3ea7af269cf408387e8265cccf197/src/chainparams.cpp#L85">XVG speed</a>
+** <a name="DOGE_blocktime">[5]</a>: <a href="https://github.com/dogecoin/dogecoin/blob/0b46a40ed125d7bf4b5a485b91350bc8bdc48fc8/src/chainparams.cpp#L89">DOGE speed</a>
+** <a name="LTC_blocktime">[6]</a>: <a href="https://github.com/litecoin-project/litecoin/blob/81c4f2d80fbd33d127ff9b31bf588e4925599d79/src/chainparams.cpp#L74">LTC speed</a>
+** <a name="BTC_blocktime">[7]</a>: <a href="https://github.com/bitcoin/bitcoin/blob/48c1083632687a42ac603d4f241e70616a1d3815/src/chainparams.cpp#L77">BTC speed</a>
+</small></p>
+<h2 id="native-segwit-bech32">Native SegWit (Bech32)</h2>
+<ul>
+<li>The first blockchain to have Native SegWit (Bech32) built-in by default.</li>
+<li>Significantly faster and lower cost than legacy transaction.</li>
+<li>Very high probability of detection guaranteed.</li>
+<li>Structure
+<sup><a href="#bip-0173">[8]</a></sup>
+<sup><a href="#native_segwit-youtube">[9]</a></sup>
+<sup><a href="#native_segwit-keynote">[10]</a></sup><br>
+<img src="image/bech32_structure.png" width="75%">
+<br></li>
+</ul>
+<p><small>** <a name="bip-0173">[8]</a>: <a href="https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki">Github: BIP-173</a>
+** <a name="native_segwit-youtube">[9]</a>: <a href="https://www.youtube.com/watch?v=NqiN9VFE4CU">Youtube: New Address Type for SegWit Addresses by Pieter Wuille</a>
+** <a name="native_segwit-keynote">[10]</a>: <a href="https://prezi.com/gwnjkqjqjjbz/bech32-a-base32-address-format/">File: Keynote Document</a>
+</small></p>
+<h2 id="exact-halving-and-total-supply">Exact halving and total supply</h2>
+<p>Halving is everything about limiting the total supply. Bitcoin is valuable because its total supply has been strictly limited, unlike traditional currencies. This total supply is controlled only by that halving. There is nothing else. We made this halving better.</p>
+<ul>
+<li><p>The formula of Sugarchain’s total money supply (in satoshis)
+<sup><a href="#BTC_whitepaper">[11]</a></sup>
+<sup><a href="#BTC_supply">[12]</a></sup></p>
+<br>
+<img src="image/supply_formula.png" width="40%">
+<br></li>
+<li><p>Block reward:</p>
+<ul>
+<li>The block reward should be to a <em><strong>power of two</strong></em>, so that it halves correctly.</li>
+<li><code>2^32/1e+8 = 42.94967296 SUGAR</code> <sup><a href="#SUGAR_blockreward">[13]</a></sup></li>
+</ul>
+</li>
+<li><p>Halving schedule:</p>
+<ul>
+<li>Interval <code>12500000 blocks (5^8*32)</code> <sup><a href="#SUGAR_halving_interval">[14]</a></sup> which is approx. 2 years (62,500,000 seconds).</li>
+<li>The total number of times halving will occur is 33 times, over the span of approx. 66 years (34,375,000 minutes).</li>
+</ul>
+</li>
+<li><p>Total supply:</p>
+<ul>
+<li><code>1073741824 SUGAR</code> <sup><a href="#SUGAR_total_supply">[15]</a></sup> <sup><a href="#SUGAR_total_cap">[16]</a></sup> in theory, and <code>1073741823.875 SUGAR</code> <sup><a href="#SUGAR_total_test">[17]</a></sup> <sup><a href="#SUGAR_total_test_qt">[18]</a></sup> in actual.</li>
+<li>The difference is <code>0.125 SUGAR</code>. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI: <code>1 GB = 1073741824 Byte (2^30)</code>.</li>
+<li>The total supply of Sugarchain is around 51 times greater than Bitcoin.</li>
+</ul>
+</li>
+<li><p>Halving chart<br>
+<img src="https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/image/halving_chart.png" alt="halving_chart.png"></p>
+<!-- BEGIN - Hidden Halving table: --></li>
+<li><details><summary>Halving table <i>(click to expand)</i></summary><br>
+
+<p><img src="https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/image/halving_table.png" alt="halving_table.png"></p>
+</details></li>
+</ul>
+<!-- END - Hidden Halving table: -->
+
+<p><small>** <a name="BTC_whitepaper">[11]</a>: <a href="https://bitcoin.org/bitcoin.pdf">Bitcoin: A Peer-to-Peer Electronic Cash System</a>
+** <a name="BTC_supply">[12]</a>: <a href="https://en.bitcoin.it/wiki/Controlled_supply">Bitcoin Wiki: Controlled supply</a>
+** <a name="SUGAR_blockreward">[13]</a>: <a href="https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/validation.cpp#L1155">Github: Block Reward</a>
+** <a name="SUGAR_halving_interval">[14]</a>: <a href="https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L135">Halving Interval</a>
+** <a name="SUGAR_total_supply">[15]</a>: <a href="https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/validation.cpp#L1147-L1216">Total Supply</a>
+** <a name="SUGAR_total_cap">[16]</a>: <a href="https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/amount.h#L33">Total Cap</a>
+** <a name="SUGAR_total_test">[17]</a>: <a href="https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/test/main_tests.cpp#L48-L67">Total Test</a>
+** <a name="SUGAR_total_test_qt">[18]</a>: <a href="https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/qt/test/paymentrequestdata.h#L437-L468">Total Test(qt)</a>
+</small></p>
+<h2 id="one-cpu-one-vote">one-CPU-one-vote</h2>
+<blockquote>
+<p>“31/Oct/2008 Proof-of-work is essentially one-CPU-one-vote” <sup><a href="#BTC_whitepaper">[11]</a></sup></p>
+</blockquote>
+<p>Satoshi Nakamoto talked about the importance of decentralized mining in his whitepaper. We want to create a blockchain that anyone can do mining easily without any entry barriers.</p>
+<ul>
+<li>CPU mining only<ul>
+<li>YespowerSugar <sup><a href="#SUGAR_yespower_sugar">[19]</a></sup> (based on Yespower 1.0.1) is only for Sugarchain, not compatible with other Yespower coins.</li>
+<li>The minimum difficulty (powlimit) is set low enough for two reasons. The first is to handle fast block time; The second is to allow mining on slow CPUs.</li>
+</ul>
+</li>
+<li>Mining efficiency <sup><a href="#yespower">[20]</a></sup> :<ul>
+<li>According to the test results, the most efficient is using <em><strong>half of threads</strong></em> on a single CPU.</li>
+<li>YespowerSugar is more suitable for older CPUs, because it is essentially a <em><strong>multi-threading resistor</strong></em>. Suitable for smartphones and Raspberry Pi.</li>
+</ul>
+</li>
+<li>Benchmark<br>
+<img src="image/yps_efficiency.png" width="90%">
+<br></li>
+<li>NO GPU: GPU mining is not possible.</li>
+<li>NO ASIC: ASIC mining is not possible.</li>
+</ul>
+<p><small>** <a name="SUGAR_yespower_sugar">[19]</a>: <a href="https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/primitives/block.cpp#L30-L70">Github: YespowerSugar</a>
+** <a name="yespower">[20]</a>: <a href="https://www.openwall.com/yespower/">Openwall: yespower - proof-of-work (PoW) scheme</a>
+</small></p>
+<h2 id="difficulty-adjustment-algorithm-daa">Difficulty Adjustment Algorithm (DAA)</h2>
+<p>SugarShield-N510 is based on Zcash&#39;s modification of Digishield. Unlike the Zcash’s modification version, we use a moving average of <code>510 blocks (approx. 42.5 minutes)</code> <sup><a href="#SUGAR_sugarshield_n510">[21]</a></sup> <sup><a href="#SUGAR_sugarshield_n510_pow">[22]</a></sup>. To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level.</p>
+<ul>
+<li><p>The formula of SugarShield-N510 <sup><a href="#zawy-digishield">[23]</a></sup></p>
+<pre><code class="language-bash">t = timestamp, h = height,
+T = 5 (target block time in seconds),
+N = 510 (window size in blocks)
+</code></pre>
+<br>
+<img src="image/sugarshield_formula.png" width="50%">
+<br>
+</li>
+<li><p>Block time vs difficulty at first launching on testnet<br>
+<img src="image/time_vs_difficulty.png" alt="time_vs_difficulty.png"></p>
+<ul>
+<li>It counts from block 1, an adjustment is made at block 511, and the actual control begins at block 512. <a href="https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/log/time_vs_difficulty-13536.log">(log: time-diff)</a></li>
+</ul>
+</li>
+<li><p>Nonce distribution at first launching on testnet<br>
+<img src="image/nonce_vs_difficulty.png" alt="nonce_vs_difficulty.png"></p>
+<ul>
+<li>The nonce is randomly well distributed. Difficulty changes but no bias. <a href="https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/log/nonce_vs_difficulty-13548.log">(log: nonce-diff)</a></li>
+</ul>
+</li>
+</ul>
+<p><small>** <a name="SUGAR_sugarshield_n510">[21]</a>: <a href="https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L143-L170">Github: SugarShield-N510</a>
+** <a name="SUGAR_sugarshield_n510_pow">[22]</a>: <a href="https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/pow.cpp">SugarShield-N510(pow)</a>
+** <a name="zawy-digishield">[23]</a>: <a href="https://github.com/zawy12/difficulty-algorithms/issues/50">Summary of Difficulty Algorithms</a>
+</small></p>
+<h2 id="faq">FAQ</h2>
+<ul>
+<li>Disk space requirements:<ul>
+<li>Blockchain size growth is around <code>10 MB per day</code> and around 3.65 GB per year.</li>
+</ul>
+</li>
+<li>Network rules:<ul>
+<li>To prevent fraud and timestamp attacks, nodes should be within <code>70 seconds</code> <sup><a href="#70_seconds">[24]</a></sup> of accurate internet time, or they will be banned.</li>
+</ul>
+</li>
+<li>Selfish mining &amp; time warp attack:<ul>
+<li>Fraud techniques for manipulating timestamps are already known. We use a future time limit (FTL) to prevent this. Blocks that differ <code>60 seconds</code> <sup><a href="#FTL_60">[25]</a></sup> or more from the current head will be banned. (credit: zawy12)</li>
+</ul>
+</li>
+<li>Header indexing:<ul>
+<li>Using sha256d in header indexing, the initial synchronization speed is as fast as Litecoin.</li>
+</ul>
+</li>
+</ul>
+<p><small>** <a name="70_seconds">[24]</a>: <a href="https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/timedata.h#L23">Github: timedata.h</a>
+** <a name="FTL_60">[25]</a>: <a href="https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chain.h#L36">Future Time Limit</a>
+</small></p>
+<h2 id="wallet">Wallet</h2>
+<p><a href="https://travis-ci.org/sugarchain-project/sugarchain"><img src="https://travis-ci.org/sugarchain-project/sugarchain.svg?branch=master-v0.16.3" alt="Build Status"></a>
+<img src="https://img.shields.io/github/downloads/sugarchain-project/sugarchain/total" alt="GitHub All Releases"></p>
+<p>Sugarchain’s first node software is called <strong>Yumekawa (夢川)</strong>. It can be translated in some ways.</p>
+<ul>
+<li>“Yume (夢)” means dream and “Kawa (川)” means river. So it’s <em>Dream River</em> in japanese.</li>
+<li>The second letter “Kawa” stands for “Kawaii (可愛い)”. In this case the meaning is <em>Dreamy Cute</em>.</li>
+<li>Also Yumekawa replaces the word <em><strong>Core</strong></em> (ie: Bitcoin Core). We think it sounds a bit centralized.</li>
+</ul>
+<p><strong>Download</strong></p>
+<ul>
+<li><img src="image/icon_win.png" width="18"> Win64: <a href="https://github.com/sugarchain-project/sugarchain/releases/latest">https://github.com/sugarchain-project/sugarchain/releases/latest</a></li>
+<li><img src="image/icon_win.png" width="18"> Win32: <a href="https://github.com/sugarchain-project/sugarchain/releases/latest">https://github.com/sugarchain-project/sugarchain/releases/latest</a></li>
+<li><img src="image/icon_linux.png" width="18"> Linux64 (x86_64): <a href="https://github.com/sugarchain-project/sugarchain/releases/latest">https://github.com/sugarchain-project/sugarchain/releases/latest</a></li>
+<li><img src="image/icon_linux.png" width="18"> Linux32 (i686): <a href="https://github.com/sugarchain-project/sugarchain/releases/latest">https://github.com/sugarchain-project/sugarchain/releases/latest</a></li>
+<li><img src="image/icon_osx.png" width="18"> OSX (Apple macOS): <a href="https://github.com/sugarchain-project/sugarchain/releases/latest">https://github.com/sugarchain-project/sugarchain/releases/latest</a></li>
+<li><img src="image/icon_arm.png" width="18"> ARM64 (aarch64): <a href="https://github.com/sugarchain-project/sugarchain/releases/latest">https://github.com/sugarchain-project/sugarchain/releases/latest</a></li>
+<li><img src="image/icon_arm.png" width="18"> ARM32 (arm): <a href="https://github.com/sugarchain-project/sugarchain/releases/latest">https://github.com/sugarchain-project/sugarchain/releases/latest</a></li>
+<li>Bootstrap: <a href="https://github.com/sugarchain-project/bootstrap/releases/latest">https://github.com/sugarchain-project/bootstrap/releases/latest</a></li>
+<li>Source: <a href="https://github.com/sugarchain-project/sugarchain">https://github.com/sugarchain-project/sugarchain</a></li>
+</ul>
+<h2 id="cpuminer">CPUMINER</h2>
+<p>Native SegWit (Bech32) address is by default and strongly recommended. <code>-t1</code> uses 1 thread. If you want more hash, increase this number.</p>
+<p><strong>cpuminer-opt-sugarchain (Win64 and Linux64)</strong> <img src="https://img.shields.io/github/downloads/cryptozeny/cpuminer-opt-sugarchain/total" alt="GitHub All Releases"> : <a href="https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/latest">https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/latest</a></p>
+<p><strong>sugarmaker (BETA: All platforms)</strong> <img src="https://img.shields.io/github/downloads/decryp2kanon/sugarmaker/total" alt="GitHub All Releases"> : <a href="https://github.com/decryp2kanon/sugarmaker/releases/latest">https://github.com/decryp2kanon/sugarmaker/releases/latest</a></p>
+<ul>
+<li>Pool mining:<pre><code class="language-bash">./cpuminer -a sugarchain -o stratum+tcp://1pool.sugarchain.org:3333 -u sugar1qv0ahzfa2ssu47wes89390sl0jz6g05h0267u8g -t1
+</code></pre>
+</li>
+<li>Solo mining:<ul>
+<li>We strongly recommend solo mining for decentralization.</li>
+<li>Make a file <code>sugarchain.conf</code><pre><code class="language-bash">server=1
+rpcuser=username
+rpcpassword=password
+rpcallowip=127.0.0.1
+</code></pre>
+</li>
+<li>Restart your Yumekawa wallet</li>
+<li>Run cpuminer-opt-sugarchain (RPC=<code>34229</code>, testnet5 RPC=<code>44229</code>, regtest RPC=<code>45339</code>)<pre><code class="language-bash">./cpuminer -a sugarchain -o http://localhost:34229 --no-longpoll -u username -p password --coinbase-addr=sugar1qv0ahzfa2ssu47wes89390sl0jz6g05h0267u8g -t1
+</code></pre>
+</li>
+<li>Detailed solo mining tutorials:<ul>
+<li>Windows: <a href="https://forum.sugarchain.org/d/9-solo-mining-on-windows">https://forum.sugarchain.org/d/9-solo-mining-on-windows</a></li>
+<li>Linux: <a href="https://forum.sugarchain.org/d/20-solo-mining-on-linux">https://forum.sugarchain.org/d/20-solo-mining-on-linux</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="pool">Pool</h2>
+<p>Please contact us if you have a new mining pool.</p>
+<ul>
+<li>1pool@tokyo: <a href="https://1pool.sugarchain.org">https://1pool.sugarchain.org</a></li>
+<li>2pool@tokyo: <a href="https://2pool.sugarchain.org">https://2pool.sugarchain.org</a></li>
+<li>rplant@worldwide: <a href="https://pool.rplant.xyz">https://pool.rplant.xyz</a></li>
+<li>mofumofu@tokyo: <a href="https://nomp.mofumofu.me">https://nomp.mofumofu.me</a></li>
+<li>dxpool@china: <a href="https://www.dxpool.net/?pool=labs">https://www.dxpool.net/?pool=labs</a> or <a href="https://www.dxpool.com/?pool=labs">https://www.dxpool.com/?pool=labs</a></li>
+<li>anomp@china: <a href="https://anomp.cc/getting_started/sugar">https://anomp.cc/getting_started/sugar</a></li>
+<li>customspeed@netherlands: <a href="http://pool.customspeed.nl">http://pool.customspeed.nl</a></li>
+<li>cpu-pool@russia: <a href="http://cpu-pool.com">http://cpu-pool.com</a></li>
+<li>zpool@worldwide: <a href="https://zpool.ca/algo/yespowerSUGAR">https://zpool.ca/algo/yespowerSUGAR</a></li>
+<li>zergpool@worldwide: <a href="https://zergpool.com/site/mining?algo=yespowerSugar">https://zergpool.com/site/mining?algo=yespowerSugar</a></li>
+<li>mecrypto@worldwide: <a href="https://pool.mecrypto.club/poolstatus?coin=SUGAR">https://pool.mecrypto.club/poolstatus?coin=SUGAR</a></li>
+<li>kriptokyng@usa: <a href="https://kriptokyng.com/pool">https://kriptokyng.com/pool</a></li>
+<li>blockmasters@wordwide: <a href="http://blockmasters.co">http://blockmasters.co</a></li>
+<li>nlpool@netherlands: <a href="https://www.nlpool.nl/">https://www.nlpool.nl/</a></li>
+</ul>
+<h2 id="explorer">Explorer</h2>
+<ul>
+<li>Iquidus: <a href="https://1explorer.sugarchain.org">https://1explorer.sugarchain.org</a></li>
+<li>Addressindex: <a href="https://sugar.wtf">https://sugar.wtf</a></li>
+<li>Addressindex (old stable): <a href="https://sugarchain.org/explorer">https://sugarchain.org/explorer</a></li>
+<li>Esplora: <a href="https://sugar.wtf/esplora">https://sugar.wtf/esplora</a></li>
+<li>Esplora (old stable): <a href="https://sugarchain.org/esplora">https://sugarchain.org/esplora</a></li>
+<li>Verge: <a href="https://2explorer.sugarchain.org">https://2explorer.sugarchain.org</a></li>
+</ul>
+<h2 id="service">Service</h2>
+<ul>
+<li>Node Map: <a href="https://map.okoto.xyz/sugar">https://map.okoto.xyz/sugar</a></li>
+<li>Halving Counter: <a href="https://sugarchain-blockhalf.github.io">https://sugarchain-blockhalf.github.io</a></li>
+<li>API Addressindex: <a href="https://api.sugarchain.org">https://api.sugarchain.org</a></li>
+<li>Faucet: <a href="https://cpu-mining.info/sugarchain-faucet">https://cpu-mining.info/sugarchain-faucet</a></li>
+</ul>
+<h2 id="3rd-party-wallet">3rd party wallet</h2>
+<ul>
+<li>Android Wallet (Google Play Store): coming soon</li>
+<li>Android Wallet (APK download): <a href="https://github.com/sugarchain-project/android_wallet_sugarchain/releases/latest">https://github.com/sugarchain-project/android_wallet_sugarchain/releases/latest</a></li>
+<li>Web Wallet: <a href="https://sugar.wtf/wallet">https://sugar.wtf/wallet</a></li>
+<li>Web Wallet (old stable): <a href="https://sugarchain.org/wallet">https://sugarchain.org/wallet</a></li>
+<li>Paper Wallet: <a href="https://lesmiscore.github.io/WalletGenerator.net/?currency=sugarchain">https://lesmiscore.github.io/WalletGenerator.net/?currency=sugarchain</a> </li>
+<li>Paper Wallet (old stable): <a href="https://sugarchain.org/SugarWalletGenerator.net/?currency=sugarchain">https://sugarchain.org/SugarWalletGenerator.net/?currency=sugarchain</a></li>
+<li>Wallet Extension for Google Chrome: <a href="https://chrome.google.com/webstore/detail/sugarchain-wallet-extensi/pgojdfajgcjjpjnbpfaelnpnjocakldb">https://chrome.google.com/webstore/detail/sugarchain-wallet-extensi/pgojdfajgcjjpjnbpfaelnpnjocakldb</a></li>
+<li>Wallet Extension for Firefox: <a href="https://addons.mozilla.org/en-US/firefox/addon/sugarchain-wallet-extension">https://addons.mozilla.org/en-US/firefox/addon/sugarchain-wallet-extension</a></li>
+<li>Tip Extension for Firefox: <a href="https://addons.mozilla.org/en-US/firefox/addon/sugargift">https://addons.mozilla.org/en-US/firefox/addon/sugargift</a></li>
+</ul>
+<h2 id="testnet">Testnet</h2>
+<ul>
+<li>Explorer Iquidus (testnet5): <a href="https://1explorer-testnet.cryptozeny.com">https://1explorer-testnet.cryptozeny.com</a></li>
+<li>Explorer Esplora (testnet5): <a href="https://sugarchain.org/esplora-testnet">https://sugarchain.org/esplora-testnet</a></li>
+<li>API Addressindex (testnet5): <a href="https://api-testnet.sugarchain.org">https://api-testnet.sugarchain.org</a></li>
+<li>Pool (testnet5): <a href="https://1pool-testnet.cryptozeny.com">https://1pool-testnet.cryptozeny.com</a></li>
+</ul>
+<h2 id="exchange">Exchange</h2>
+<ul>
+<li>ALTMARKETS.IO (v2)<ul>
+<li>SUGAR-BTC: <a href="https://v2.altmarkets.io/trading/sugarbtc">https://v2.altmarkets.io/trading/sugarbtc</a></li>
+<li>SUGAR-DOGE: <a href="https://v2.altmarkets.io/trading/sugardoge">https://v2.altmarkets.io/trading/sugardoge</a></li>
+<li>SUGAR-LTC: <a href="https://v2.altmarkets.io/trading/sugarltc">https://v2.altmarkets.io/trading/sugarltc</a></li>
+<li>SUGAR-USDT: <a href="https://v2.altmarkets.io/trading/sugarusdt">https://v2.altmarkets.io/trading/sugarusdt</a></li>
+</ul>
+</li>
+<li>EX4ANGE.ORG<ul>
+<li>SUGAR-BTC: <a href="https://ex4ange.org/?SUGAR-BTC">https://ex4ange.org/?SUGAR-BTC</a></li>
+<li>SUGAR-DOGE: <a href="https://ex4ange.org/?SUGAR-DOGE">https://ex4ange.org/?SUGAR-DOGE</a></li>
+</ul>
+</li>
+<li>OCCE.IO<ul>
+<li>SUGAR-UAH: <a href="https://www.occe.io/exchange/sugar_uah">https://www.occe.io/exchange/sugar_uah</a></li>
+</ul>
+</li>
+<li>EXBITRON.COM<ul>
+<li>SUGAR-USDT: <a href="https://www.exbitron.com/trading/sugarusdt">https://www.exbitron.com/trading/sugarusdt</a></li>
+<li>SUGAR-DOGE: <a href="https://www.exbitron.com/trading/sugardoge">https://www.exbitron.com/trading/sugardoge</a></li>
+</ul>
+</li>
+</ul>
+<details>
+ <summary>CLOSED EXCHANGE</summary>
+    
+    
+    
+
+<ul>
+<li>ALTILLY.COM <em><strong>(Hacked 2020-12)</strong></em><ul>
+<li>SUGAR-BTC: <a href="https://altilly.com/market/SUGAR_BTC">https://altilly.com/market/SUGAR_BTC</a></li>
+<li>SUGAR-DOGE: <a href="https://altilly.com/market/SUGAR_DOGE">https://altilly.com/market/SUGAR_DOGE</a></li>
+<li>SUGAR-USDT: <a href="https://altilly.com/market/SUGAR_USDT">https://altilly.com/market/SUGAR_USDT</a></li>
+</ul>
+</li>
+<li>KUANGEX.COM <em><strong>(Closed 2021-02)</strong></em><ul>
+<li>SUGAR-USDT: <a href="https://www.kuangex.com/trade/sugar_usdt">https://www.kuangex.com/trade/sugar_usdt</a></li>
+</ul>
+</li>
+<li>ALTMARKETS.IO (v1) <em><strong>(Shutdown 2021-03)</strong></em><ul>
+<li>SUGAR-BTC: <a href="https://altmarkets.io/trading/sugarbtc">https://altmarkets.io/trading/sugarbtc</a></li>
+<li>SUGAR-DOGE: <a href="https://altmarkets.io/trading/sugardoge">https://altmarkets.io/trading/sugardoge</a></li>
+</ul>
+</li>
+<li>CEXZ.CA<ul>
+<li>SUGAR-LTC: <a href="https://www.cexz.ca/trading/sugarltc">https://www.cexz.ca/trading/sugarltc</a></li>
+</ul>
+</li>
+<li>GX.COM<ul>
+<li>SUGAR-USDT: <a href="https://www.gx.com/trade/SUGAR_USDT">https://www.gx.com/trade/SUGAR_USDT</a></details></li>
+</ul>
+</li>
+</ul>
+<h2 id="community">Community</h2>
+<ul>
+<li>Telegram: <a href="https://t.me/sugarchain">https://t.me/sugarchain</a></li>
+<li>Twitter: <a href="https://twitter.com/sugarchain_dev">https://twitter.com/sugarchain_dev</a></li>
+<li>Forum: <a href="https://forum.sugarchain.org">https://forum.sugarchain.org</a></li>
+<li>Rocket.Chat: <a href="https://chat.sugar.wtf">https://chat.sugar.wtf</a></li>
+<li>Bitcointalk: <a href="https://bitcointalk.org/index.php?topic=5177722.0">https://bitcointalk.org/index.php?topic=5177722.0</a></li>
+<li>Reddit: <a href="https://www.reddit.com/r/Sugarchain">https://www.reddit.com/r/Sugarchain</a></li>
+</ul>
+<h2 id="license">License</h2>
+<p>Sugarchain Yumekawa is released under the terms of the MIT license. See <a href="https://github.com/sugarchain-project/sugarchain/blob/master-v0.16.3/COPYING">COPYING</a> for more
+information or see <a href="https://opensource.org/licenses/MIT">https://opensource.org/licenses/MIT</a>.</p>
+<ul>
+<li>Copyright © 2009-2010 Satoshi Nakamoto</li>
+<li>Copyright © 2009-2018 The Bitcoin Core developers</li>
+<li>Copyright © 2013-2019 Alexander Peslyak - Yespower 1.0.1</li>
+<li>Copyright © 2016-2018 The Zcash developers - DigiShieldZEC</li>
+<li>Copyright © 2018-2020 The Sugarchain Yumekawa developers</li>
+</ul>
