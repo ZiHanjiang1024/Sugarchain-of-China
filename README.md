@@ -1,3 +1,5 @@
+This project allows Chinese people to access the official website of Sugarchain without using VPN software
+
 Sugarchain
 ==========
 one-CPU-one-vote, the world’s fastest PoW blockchain  
