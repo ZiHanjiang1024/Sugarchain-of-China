@@ -1,6 +1,3 @@
-This project allows Chinese people to access the official website of Sugarchain without using VPN software,And this project can be placed on the server of any country without any restrictions
-:)
-
 Sugarchain
 ==========
 one-CPU-one-vote, the world’s fastest PoW blockchain  
@@ -309,7 +306,7 @@ Exchange
   * SUGAR-BTC: https://ex4ange.org/?SUGAR-BTC
   * SUGAR-DOGE: https://ex4ange.org/?SUGAR-DOGE
 - OCCE.IO
-  * SUGAR-UAH: https://www.occe.io/exchange/sugar_uah
+  * SUGAR-TRX: https://www.occe.io/exchange/sugar_trx
 - EXBITRON.COM
   * SUGAR-USDT: https://www.exbitron.com/trading/sugarusdt
   * SUGAR-DOGE: https://www.exbitron.com/trading/sugardoge
